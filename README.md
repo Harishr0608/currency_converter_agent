@@ -97,7 +97,6 @@ Convert 100 USD to EUR
 ### Multiple Conversions (Key Feature!)
 ```
 Convert 100 USD to EUR and 200 GBP to JPY
-1000 INR to USD, EUR, and GBP
 ```
 
 ## 🎯 Key Features Deep Dive
