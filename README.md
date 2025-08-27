@@ -248,19 +248,6 @@ This project is licensed under the MIT License.
 - Session data stored in memory (Redis recommended for production)
 - Automatic cleanup of expired sessions
 
-## 🐛 Troubleshooting
+## 🐛 Screenshot
 
-### Common Issues
-
-1. **Port already in use**: Stop existing services or change ports
-2. **API key issues**: Verify OpenRouter API key in .env
-3. **Dependencies**: Ensure Python 3.8+ and all requirements installed
-4. **Permissions**: Make sure start.sh is executable (`chmod +x start.sh`)
-
-### Debug Mode
-
-Set `DEBUG=True` in .env for detailed logging.
-
----
-
-Built with ❤️ for intelligent currency conversion
+<img width="1920" height="1131" alt="Screenshot 2025-08-27 at 12 16 17" src="https://github.com/user-attachments/assets/bcb2aff9-33b6-4da3-932e-8f697d5d3725" />
