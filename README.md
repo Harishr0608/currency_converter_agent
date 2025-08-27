@@ -100,18 +100,6 @@ Convert 100 USD to EUR and 200 GBP to JPY
 1000 INR to USD, EUR, and GBP
 ```
 
-### Historical Rates
-```
-What was the USD to EUR rate on 2023-12-01?
-Historical rate for GBP to JPY on 2024-01-15
-```
-
-### Currency Information
-```
-What currencies are supported?
-List all available currencies
-```
-
 ## 🎯 Key Features Deep Dive
 
 ### Multi-Conversion Intelligence
