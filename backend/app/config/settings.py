@@ -12,12 +12,12 @@ class Settings(BaseSettings):
     DEBUG: bool = os.getenv("DEBUG", "True").lower() == "true"
     
     # OpenRouter Configuration
-    OPENROUTER_API_KEY: str = os.getenv("OPENROUTER_API_KEY", "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")
+    OPENROUTER_API_KEY: str = os.getenv("OPENROUTER_API_KEY", "")
     OPENROUTER_BASE_URL: str = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1/chat/completions")
     OPENROUTER_MODEL: str = os.getenv("OPENROUTER_MODEL", "openai/gpt-5-chat")
     
     # Frankfurter API Configuration
-    FRANKFURTER_BASE_URL: str = os.getenv("FRANKFURTER_BASE_URL", "https://api.frankfurter.app/latest?amount=100&from=USD&to=EUR")
+    FRANKFURTER_BASE_URL: str = os.getenv("FRANKFURTER_BASE_URL", "")
     
     # LLM Configuration
     MAX_TOKENS: int = int(os.getenv("MAX_TOKENS", "500"))
